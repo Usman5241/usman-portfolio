@@ -16,6 +16,11 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Copy portfolio files
 COPY index.html /usr/share/nginx/html/
+COPY robots.txt /usr/share/nginx/html/
+COPY sitemap.xml /usr/share/nginx/html/
+COPY assets/ /usr/share/nginx/html/assets/
+
+# Keep legacy paths for backward compatibility
 COPY styles.css /usr/share/nginx/html/
 COPY script.js /usr/share/nginx/html/
 COPY *.jfif /usr/share/nginx/html/

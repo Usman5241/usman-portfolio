@@ -16,12 +16,19 @@
     <meta property="og:title" content="Usman Ali | Senior DevOps & Cloud Engineer">
     <meta property="og:description" content="3+ years AWS certified DevOps Engineer. Multi-cloud architect (AWS, Azure, GCP). AI/RAG systems, serverless, EKS/ECS, and CI/CD automation expert.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="1768064467335.jfif">
+    <meta property="og:image" content="assets/images/profile.jfif">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Usman Ali | Senior DevOps Engineer">
     <meta name="twitter:description" content="AWS | Azure | GCP | AI/RAG | Serverless | Kubernetes | 3+ Years Cloud Engineering">
+
+    <!-- Additional SEO -->
+    <meta name="theme-color" content="#0a0a0f">
+    <meta name="color-scheme" content="dark light">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="geo.region" content="PK-PB">
+    <meta name="geo.placename" content="Multan">
 
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -46,10 +53,15 @@
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
 
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
     <!-- Fonts & Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <!-- Preloader -->
@@ -157,7 +169,11 @@
                     <div class="profile-image-container">
                         <div class="profile-ring"></div>
                         <div class="profile-image">
-                            <img src="1768064467335.jfif" alt="Usman Ali - Senior DevOps Engineer" loading="eager">
+                            <img src="assets/images/profile.jfif" alt="Usman Ali - Senior DevOps Engineer" loading="eager">
+                            <a href="#contact" class="hire-me-overlay">
+                                <i class="fas fa-handshake"></i>
+                                <span>Hire Me</span>
+                            </a>
                         </div>
                         <div class="status-badge">
                             <span class="status-dot"></span>
@@ -313,7 +329,7 @@
                         </div>
                     </div>
                     <div class="about-cta">
-                        <a href="Profile (1).pdf" class="btn btn-primary" download="Usman_Ali_Resume.pdf">
+                        <a href="assets/Usman_Ali_Resume.pdf" class="btn btn-primary" download="Usman_Ali_Resume.pdf">
                             <i class="fas fa-download"></i>
                             <span>Download CV</span>
                         </a>
@@ -1152,14 +1168,14 @@
                 <div class="message bot">
                     <div class="message-avatar"><i class="fas fa-robot"></i></div>
                     <div class="message-content">
-                        <p>Hi! I'm Usman's DevOps AI Assistant. Ask me about his multi-cloud expertise (AWS, Azure, GCP), AI/RAG systems, EKS/ECS/RDS experience, serverless architecture, or any DevOps topic!</p>
+                        <p>Hi! I'm Usman's DevOps AI Assistant. I can answer questions about his expertise, explain DevOps concepts, and <strong>solve errors</strong> - just paste any error message from Docker, Kubernetes, Terraform, AWS, Git, or Python and I'll diagnose it!</p>
                     </div>
                 </div>
             </div>
             <div class="chatbot-suggestions" id="suggestions">
                 <button class="suggestion-btn">Who is Usman?</button>
+                <button class="suggestion-btn">Solve an error</button>
                 <button class="suggestion-btn">Cloud expertise?</button>
-                <button class="suggestion-btn">AI/RAG projects?</button>
                 <button class="suggestion-btn">How to hire?</button>
             </div>
             <form class="chatbot-input" id="chatbotForm">
@@ -1174,6 +1190,6 @@
         <i class="fas fa-chevron-up"></i>
     </button>
 
-    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
